@@ -36,9 +36,9 @@ cd google-clone
 ### 2. Construa a imagem Docker
 docker build -t google-clone .
 
-3. Execute o container Docker
+### 3. Execute o container Docker
 docker run -d -p 8080:80 google-clone
 
-4. Acesse a aplicação no navegador
+### 4. Acesse a aplicação no navegador
 http://localhost:8080
 Você verá a página inicial do Google estilizada com HTML e CSS puros.
